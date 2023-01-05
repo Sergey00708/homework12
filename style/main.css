@@ -1,0 +1,122 @@
+.container{
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 26px 0;
+    border-bottom: 2px solid gray;
+}
+
+.logo{
+    padding-right: 51px;
+}
+
+ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 57px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.buttons{
+    padding-left: 35%;
+}
+
+.frame-wrapper{
+    display: flex;
+}
+
+.frame{
+    padding: 129px 0 172px 0;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 51px;
+    margin-top: 0;
+}
+
+.text-frame p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    max-width: 471px;
+    margin-bottom: 51px;
+}
+
+.text-frame span{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 369px;
+}
+
+.frame-buttons .first-button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 42px;
+    background-color: #FF6336;
+    border: none;
+}
+
+.frame-buttons .second-button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    padding: 0 29px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #FFFFFF;
+}
+
+.frame-buttons{
+    margin-bottom: 25px;
+}
+
+
+/*section-1*/
+
+h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-around;
+    gap: 103px;
+}
+
+.section-1{
+    padding: 108px 0;
+    background-color: #FF9C7D;
+
+}
+
+/*section-2*/
+
+.section-2-wrapper{
+    display: flex;
+}
