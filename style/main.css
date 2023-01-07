@@ -1,3 +1,4 @@
+
 .container{
     width: 1290px;
     margin: 0 auto;
@@ -28,6 +29,7 @@ li{
 
 a{
     text-decoration: none;
+    color: #000000;
 }
 
 .buttons{
@@ -119,17 +121,16 @@ h1{
 
 /*section-2*/
 
-
-.section-wrapper{
-    display: flex;
-    justify-content: space-between;
-}
-
 .section-2-wrapper{
     display: flex;
     flex-direction: column;
     gap: 250px;
     padding: 90px 0 150px 0;
+}
+
+.section-wrapper{
+    display: flex;
+    justify-content: space-between;
 }
 
 .section-text{
@@ -151,5 +152,54 @@ h1{
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    color: #000000;
+}
+
+/* section3 */
+
+.section3{
+    background-color: #FFF8E4;
+    padding: 120px 0 147px 0;
+}
+
+.section3-wrapper h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 79px;
+}
+
+.app-wrapper{
+    height: 627px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.app{
+    text-align: center;
+    max-width: 330px;
+}
+
+.app img{
+    margin-bottom: 26px;
+}
+
+.app h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.app p{
+    height: 75px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
     color: #000000;
 }
