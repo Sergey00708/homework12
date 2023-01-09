@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Graphic-regular';
+    src: url("../font/GraphikLCG-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Graphic-semibold';
+    src: url("../font/GraphikLCG-Semibold.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url("../font/Roboto-Regular.ttf");
+}
+body{
+    font-family: 'Graphic-regular';
+    color: black;
+}
 
 .container{
     width: 1290px;
@@ -48,7 +66,6 @@ h1{
     font-weight: 600;
     font-size: 65px;
     line-height: 70px;
-    color: #000000;
     margin-bottom: 51px;
     margin-top: 0;
 }
@@ -57,7 +74,6 @@ h1{
     font-weight: 400;
     font-size: 25px;
     line-height: 35px;
-    color: #000000;
     max-width: 471px;
     margin-bottom: 51px;
 }
@@ -85,7 +101,6 @@ h1{
     font-size: 16px;
     line-height: 60px;
     text-align: center;
-    color: #000000;
     padding: 0 29px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: #FFFFFF;
@@ -102,7 +117,6 @@ h1{
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
-    color: #000000;
     text-align: center;
     margin: 0 auto 82px;
     max-width: 720px;
@@ -144,7 +158,6 @@ h1{
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
-    color: #000000;
     padding-top: 151px;
 }
 
@@ -152,7 +165,6 @@ h1{
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    color: #000000;
 }
 
 /* section3 */
@@ -167,7 +179,6 @@ h1{
     font-size: 50px;
     line-height: 60px;
     text-align: center;
-    color: #000000;
     margin-bottom: 79px;
 }
 
@@ -192,7 +203,6 @@ h1{
     font-weight: 600;
     font-size: 25px;
     line-height: 35px;
-    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -201,5 +211,177 @@ h1{
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color: #000000;
 }
+
+/*section4*/
+
+.section-4{
+    padding: 154px 0 187px 0;
+}
+
+.section-4 h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 92px;
+}
+
+.section4-wrapper{
+    display: flex;
+    gap: 31px;
+    align-items: flex-end;
+}
+
+.section-skills h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 34px;
+    margin-top: 67px;
+}
+
+.section-skills p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 26px;
+}
+
+.section-skills a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+}
+
+/*section-5*/
+
+.section-5{
+    background: #C9E8F2;
+    padding: 63px 0 105px 0;
+}
+
+.section5-wrapper{
+    display: flex;
+    gap: 59px;
+}
+
+.section5-wrapper p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 23px;
+}
+
+.section5-wrapper span{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/*section-6*/
+
+.section-6{
+    background: #DABC98;
+    padding: 80px 0 84px 0;
+}
+
+.section6-wrapper{
+    display: flex;
+}
+
+.cake{
+    display: flex;
+    padding-right: 124px;
+    border-right: solid 1px black;
+    gap: 67px;
+}
+
+.cake p{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    max-width: 461px;
+    margin: auto;
+}
+
+.stars{
+    display: flex;
+    gap: 71px;
+    margin: auto;
+}
+
+/*section-7*/
+
+.section7-wrapper{
+    padding: 165px 0 162px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section7-wrapper h3{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    max-width: 791px;
+    text-align: center;
+}
+
+.section7-wrapper p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 539px;
+    margin-bottom: 25px;
+}
+
+.section7-wrapper button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF6336;
+    padding: 0 20px;
+    border: none;
+    margin-top: 32px;
+}
+
+/*section-8*/
+
+.section-8{
+    background: #FF9C7D;
+}
+
+.section8-wrapper{
+    padding: 119px 273px 161px 273px;
+    text-align: center;
+}
+
+.section8-wrapper h3{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    margin-bottom: 29px;
+}
+
+.section8-wrapper p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+
+.section8-wrapper button{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 40px;
+    background: #000000;
+    border: none;
+}
+
