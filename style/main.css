@@ -34,7 +34,7 @@ body{
     padding-right: 51px;
 }
 
-ul{
+.header-wrapper ul{
     padding-left: 0;
     display: flex;
     justify-content: space-between;
@@ -383,5 +383,19 @@ h1{
     padding: 0 40px;
     background: #000000;
     border: none;
+}
+
+/*footer*/
+
+.footer-top{
+    display: flex;
+}
+
+.info-wrapper{
+    display: flex;
+}
+
+.footer-under{
+    display: flex;
 }
 
