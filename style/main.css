@@ -12,6 +12,7 @@
     font-family: 'Roboto-regular';
     src: url("../font/Roboto-Regular.ttf");
 }
+
 body{
     font-family: 'Graphic-regular', serif;
     color: black;
@@ -20,6 +21,14 @@ body{
 .container{
     width: 1290px;
     margin: 0 auto;
+}
+
+button{
+    cursor: pointer;
+}
+
+span{
+    text-decoration-line: underline;
 }
 
 /*header*/
@@ -113,7 +122,7 @@ h1{
     margin-bottom: 51px;
 }
 
-.text-frame span{
+.text-frame h3{
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
@@ -147,6 +156,10 @@ h1{
 
 
 /*section-1*/
+.section-1{
+    padding: 108px 0;
+    background-color: #FF9C7D;
+}
 
 .section-1-wrapper h2{
     font-family: 'Graphic-semibold', serif;
@@ -161,11 +174,6 @@ h1{
     display: flex;
     justify-content: space-around;
     gap: 103px;
-}
-
-.section-1{
-    padding: 108px 0;
-    background-color: #FF9C7D;
 }
 
 /*section-2*/
@@ -202,7 +210,7 @@ h1{
     line-height: 30px;
 }
 
-.section-text a{
+.section-text h3{
     font-family: 'Graphic-semibold', serif;
     font-size: 20px;
     line-height: 30px;
@@ -314,7 +322,7 @@ h1{
     margin-bottom: 23px;
 }
 
-.section5-wrapper span{
+.section5-wrapper h3{
     font-family: 'Roboto-regular', serif;
     font-weight: 400;
     font-size: 15px;
@@ -461,7 +469,7 @@ h1{
     margin-bottom: 15px;
 }
 
-.case span{
+.case a{
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
