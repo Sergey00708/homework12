@@ -13,7 +13,7 @@
     src: url("../font/Roboto-Regular.ttf");
 }
 body{
-    font-family: 'Graphic-regular';
+    font-family: 'Graphic-regular', serif;
     color: black;
 }
 
@@ -22,19 +22,25 @@ body{
     margin: 0 auto;
 }
 
-.header-wrapper{
+/*header*/
+
+.header-top-wrapper{
+    padding: 26px 0 24px 0;
+    border-bottom: 1px solid #CCCCCC;;
+}
+
+.header-top{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    padding: 26px 0;
-    border-bottom: 2px solid gray;
 }
 
 .logo{
-    padding-right: 51px;
+    display: flex;
+    gap: 51px;
 }
 
-.header-wrapper ul{
+.logo ul{
     padding-left: 0;
     display: flex;
     justify-content: space-between;
@@ -43,6 +49,9 @@ body{
 
 li{
     list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 a{
@@ -51,11 +60,38 @@ a{
 }
 
 .buttons{
-    padding-left: 35%;
+    display: flex;
+    gap: 10px;
 }
+
+.btn-1, .btn-2{
+    font-family: 'Graphic-semibold', serif;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.btn-1{
+    padding: 0 36px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn-2{
+    padding: 0 22px;
+    background: #FF6336;
+    color: #FFFFFF;
+    border: none;
+}
+
+/*-section frame*/
 
 .frame-wrapper{
     display: flex;
+}
+
+.frame-wrapper img{
+    max-width: 746px;
 }
 
 .frame{
@@ -63,11 +99,10 @@ a{
 }
 
 h1{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 65px;
     line-height: 70px;
     margin-bottom: 51px;
-    margin-top: 0;
 }
 
 .text-frame p{
@@ -86,7 +121,7 @@ h1{
 }
 
 .frame-buttons .first-button{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 16px;
     line-height: 60px;
     text-align: center;
@@ -97,7 +132,7 @@ h1{
 }
 
 .frame-buttons .second-button{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 16px;
     line-height: 60px;
     text-align: center;
@@ -114,7 +149,7 @@ h1{
 /*section-1*/
 
 .section-1-wrapper h2{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 50px;
     line-height: 60px;
     text-align: center;
@@ -155,7 +190,7 @@ h1{
 }
 
 .section-text h2{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 50px;
     line-height: 60px;
     padding-top: 151px;
@@ -163,6 +198,12 @@ h1{
 
 .section-text p{
     font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section-text a{
+    font-family: 'Graphic-semibold', serif;
     font-size: 20px;
     line-height: 30px;
 }
@@ -175,7 +216,7 @@ h1{
 }
 
 .section3-wrapper h2{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 50px;
     line-height: 60px;
     text-align: center;
@@ -200,7 +241,7 @@ h1{
 }
 
 .app h3{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 25px;
     line-height: 35px;
     margin-bottom: 20px;
@@ -220,7 +261,7 @@ h1{
 }
 
 .section-4 h2{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 50px;
     line-height: 60px;
     margin-bottom: 92px;
@@ -233,7 +274,7 @@ h1{
 }
 
 .section-skills h3{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 34px;
@@ -274,6 +315,7 @@ h1{
 }
 
 .section5-wrapper span{
+    font-family: 'Roboto-regular', serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
@@ -298,7 +340,7 @@ h1{
 }
 
 .cake p{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 35px;
     line-height: 50px;
     max-width: 461px;
@@ -321,7 +363,7 @@ h1{
 }
 
 .section7-wrapper h3{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 65px;
     line-height: 75px;
     max-width: 791px;
@@ -338,7 +380,7 @@ h1{
 }
 
 .section7-wrapper button{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 16px;
     line-height: 60px;
     text-align: center;
@@ -361,7 +403,7 @@ h1{
 }
 
 .section8-wrapper h3{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 65px;
     line-height: 75px;
     margin-bottom: 29px;
@@ -375,7 +417,7 @@ h1{
 }
 
 .section8-wrapper button{
-    font-weight: 600;
+    font-family: 'Graphic-semibold', serif;
     font-size: 17px;
     line-height: 60px;
     text-align: center;
@@ -387,15 +429,84 @@ h1{
 
 /*footer*/
 
+.footer-wrapper{
+    background: #EEEEEE;
+    padding: 97px 0 48px 0;;
+}
+
 .footer-top{
     display: flex;
+    padding-bottom: 95px;
+    border-bottom: 1px solid black;
+    gap: 140px;
+}
+
+.case h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 28px;
+}
+
+.specialized{
+    margin-top: 31px;
+    margin-bottom: 11px;
+}
+
+.case p{
+    max-width: 290px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.case span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .info-wrapper{
     display: flex;
+    width: 850px;
+    justify-content: space-between;
+}
+
+.info h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 21px;
+}
+
+.info li{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 15px;
 }
 
 .footer-under{
     display: flex;
+    justify-content: space-between;
+    margin: 47px 0 48px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
 }
+
+.left{
+    display: flex;
+    gap: 14px;
+}
+
+.left p{
+    max-width: 301px;
+}
+
+
+
+
+
 
