@@ -19,8 +19,9 @@ body{
 }
 
 .container{
-    width: 1290px;
+    max-width: 1290px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 button{
@@ -232,7 +233,7 @@ h1{
 }
 
 .app-wrapper{
-    height: 627px;
+    min-height: 627px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -477,7 +478,7 @@ h1{
 
 .info-wrapper{
     display: flex;
-    width: 850px;
+    max-width: 850px;
     justify-content: space-between;
 }
 
